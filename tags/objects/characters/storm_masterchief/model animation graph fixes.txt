@@ -1,0 +1,26 @@
+These are instructions you can follow yourself to fix your lowered weapon animations when moving or turning.
+
+
+<----- RIFLES ----->
+
+overlay group 348 "combat_rifle_aim_locomote_up"
+add new blend screens "combat:rifle:aim_still_down"
+
+overlay group 350 "combat_rifle_aim_turn_up"
+add new blend screens "combat:rifle:aim_still_down"
+
+<----- PISTOLS ----->
+
+overlay group 354 "combat_pistol_aim_locomote_up"
+add new blend screens "combat:pistol:aim_still_down"
+
+overlay group 352 "combat_pistol_aim_turn_up"
+add new blend screens "combat:pistol:aim_still_down"
+
+<----- MISSILE ----->
+
+overlay group 362 "combat_missile_aim_locomote_up"
+add new blend screens "combat:missile:aim_still_down"
+
+overlay group 357 "combat_missile_aim_still_up"
+add new blend screens "combat:missile:aim_still_down"
