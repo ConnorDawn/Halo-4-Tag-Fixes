@@ -9,6 +9,8 @@ add new blend screens "combat:rifle:aim_still_down"
 overlay group 350 "combat_rifle_aim_turn_up"
 add new blend screens "combat:rifle:aim_still_down"
 
+
+
 <----- PISTOLS ----->
 
 overlay group 354 "combat_pistol_aim_locomote_up"
@@ -19,8 +21,11 @@ add new blend screens "combat:pistol:aim_still_down"
 
 <----- MISSILE ----->
 
-overlay group 362 "combat_missile_aim_locomote_up"
+overlay group 363 "crouch_missile_aim_locomote_up"
 add new blend screens "combat:missile:aim_still_down"
+
+// DAWNS NOTE: Although the above does NOT affect the actual crouch animation, it's called this for whatever reason. Fix was found by ILoveAGoodCrisp.
 
 overlay group 357 "combat_missile_aim_still_up"
 add new blend screens "combat:missile:aim_still_down"
+

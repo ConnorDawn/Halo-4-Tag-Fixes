@@ -1,0 +1,7 @@
+These are instructions you can follow yourself to fix your Ragnarök bugs.
+
+<----- Yellow Sky Void ----->
+
+Change Zone Set "valhalla" setting "override sky clear colour" in "flags" to unticked to fix yellow void colour bug.
+
+// DAWNS NOTE: Although this "fixes" the bug, it is only a dirty fix, as on the OG Xbox 360 version of this map, this flag is still ticked and the bug does not occur there.
